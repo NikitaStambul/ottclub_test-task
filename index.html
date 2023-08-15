@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Task</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <a href="/" class="header__logo-link">
+            <img src="./img/logo.png" alt="logo" class="header__logo" />
+          </a>
+          <nav class="header__navbar">
+            <div class="header__socials">
+              <a href="#" class="header__socials-link">
+                <img src="./img/telegram.svg" alt="telegram link" />
+              </a>
+              <a href="#" class="header__socials-link">
+                <img src="./img/fb.svg" alt="facebook link" />
+              </a>
+            </div>
+
+            <div class="header__auth">
+              <a href="#" class="header__sign-up">Регистрация</a>
+              <a href="#" class="header__sign-in">Войти</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <section class="hero content__hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__leading">
+              <h1 class="hero__heading">
+                Более 270 телеканалов<br />в прямом эфире
+              </h1>
+              <img src="./img/hero-image.png" alt="" class="hero__image" />
+              <p class="hero__text">
+                Национальные, познавательные, детские, кино, спортивные,
+                новостные и многие другие каналы
+              </p>
+              <button class="hero__button">
+                Протестировать 7 дней бесплатно
+              </button>
+            </div>
+            <img src="./img/hero-image.png" alt="" class="hero__large-image" />
+          </div>
+        </div>
+      </section>
+      <section class="benefits content__benefits">
+        <div class="container">
+          <div class="benefits__content">
+            <div class="benefits__item">
+              <img
+                src="./img/benefit-gift.svg"
+                alt="gift image"
+                class="benefits__image"
+              />
+              <h4 class="benefits__title">Бесплатный тест</h4>
+              <p class="benefits__text">
+                7 дней бесплатного тестового просмотра
+              </p>
+            </div>
+            <div class="benefits__item">
+              <img
+                src="./img/benefit-devices.svg"
+                alt="gift image"
+                class="benefits__image"
+              />
+              <h4 class="benefits__title">5 устройств = 1 подписка</h4>
+              <p class="benefits__text">
+                Подключайте 5 устройств в одной подписке
+              </p>
+            </div>
+            <div class="benefits__item">
+              <img
+                src="./img/benefit-tv.svg"
+                alt="gift image"
+                class="benefits__image"
+              />
+              <h4 class="benefits__title">Архив трансляций</h4>
+              <p class="benefits__text">Смотрите 7 дней телеэфира в записи</p>
+            </div>
+            <div class="benefits__item">
+              <img
+                src="./img/benefit-planet.svg"
+                alt="gift image"
+                class="benefits__image"
+              />
+              <h4 class="benefits__title">Без привязки к месту</h4>
+              <p class="benefits__text">
+                Смотрите любимые фильмы и передачи в любой точке мира
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subscription content__subscription">
+        <div class="container">
+          <div class="subscription__content">
+            <div class="subscription__eye">
+              <img src="./img/eye.png" alt="eye" class="subscription__eye-image">
+            </div>
+            <div class="subscription__terms">
+              <div class="subscription__description">
+                <h4 class="subscription__pricing">
+                  <span class="subscription__price">1€</span> / месяц
+                </h4>
+                <p class="subscription__text">
+                  Покупая подписку<br />
+                  более, чем на 6 месяцев
+                </p>
+              </div>
+              <ul class="subscription__list">
+                <li class="subscription__item">Более 270 каналов</li>
+                <li class="subscription__item">127 FullHD каналов</li>
+                <li class="subscription__item">Режим Ultra TV Sport</li>
+                <li class="subscription__item">7 дней архива каналов</li>
+                <li class="subscription__item">5 устройств</li>
+              </ul>
+            </div>
+            <form action="/" method="POST" class="subscription__subscribe">
+              <input
+                type="email"
+                placeholder="Email"
+                required
+                class="subscription__input"
+              />
+              <button class="subscription__button">Подключить тариф</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="channels content__channels">
+        <div class="container">
+          <div class="channels__content">
+            <h4 class="channels__heading">ТВ - каналы</h4>
+            <p class="channels__text">
+              Национальные, познавательные, детские, кино, спортивные, новостные
+              и многие другие телеканалы
+            </p>
+          </div>
+        </div>
+        <div class="channels__content">
+          <ul class="channels__categories">
+            <li class="channels__category channels__category--selected">
+              Популярные
+            </li>
+            <li class="channels__category">Национальные</li>
+            <li class="channels__category">Познавательные</li>
+            <li class="channels__category">Кино</li>
+            <li class="channels__category">Спорт</li>
+            <li class="channels__category">Детские</li>
+            <li class="channels__category">Музыкальные</li>
+            <li class="channels__category">Новостные</li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="channels__content">
+            <ul class="channels__grid">
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/1+1.svg"
+                  alt="1+1"
+                />
+              </li>
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/zoom.svg"
+                  alt="zoom"
+                />
+              </li>
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/ukraine-1.svg"
+                  alt="ukraine 1"
+                />
+              </li>
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/e-film.svg"
+                  alt="e film"
+                />
+              </li>
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/tet.svg"
+                  alt="tet"
+                />
+              </li>
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/inter.svg"
+                  alt="inter"
+                />
+              </li>
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/novy.svg"
+                  alt="novy"
+                />
+              </li>
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/ictv.svg"
+                  alt="ictv"
+                />
+              </li>
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/m1.svg"
+                  alt="m 1"
+                />
+              </li>
+              <li class="channels__grid-item">
+                <img
+                  class="channels__grid-image"
+                  src="./img/channels/2+2.svg"
+                  alt="2+2"
+                />
+              </li>
+            </ul>
+            <a href="/" class="channels__show-more">Показать все</a>
+          </div>
+        </div>
+      </section>
+      <section class="hero content__hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__leading">
+              <h1 class="hero__heading">Смотрите<br />на разных устройствах</h1>
+              <img
+                src="./img/devices.png"
+                alt="devices image"
+                class="hero__image"
+              />
+              <p class="hero__text">
+                Подключайте подписку FULL и смотрите любимые каналы на 5
+                устройствах, среди которых: телевизор, компьютер, планшет или
+                смартфон
+              </p>
+              <button class="hero__button">
+                Протестировать 7 дней бесплатно
+              </button>
+            </div>
+            <img
+              src="./img/devices.png"
+              alt="devices image"
+              class="hero__large-image"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="providers content__providers">
+        <div class="container">
+          <div class="providers__content">
+            <div class="providers__leading">
+              <img
+                class="providers__image"
+                src="./img/providers/lg.svg"
+                alt="lg smart tv"
+              />
+              <img
+                class="providers__image"
+                src="./img/providers/ios.svg"
+                alt="apple tv"
+              />
+            </div>
+            <div class="providers__trailing">
+              <img
+                class="providers__image"
+                src="./img/providers/android.svg"
+                alt="android tv"
+              />
+              <img
+                class="providers__image"
+                src="./img/providers/samsung.svg"
+                alt="samsung smart tv"
+              />
+            </div>
+          </div>
+          <div class="providers__large-content">
+            <img
+              class="providers__image"
+              src="./img/providers/lg.svg"
+              alt="lg smart tv"
+            />
+            <img
+              class="providers__image"
+              src="./img/providers/ios.svg"
+              alt="apple tv"
+            />
+
+            <img
+              class="providers__image"
+              src="./img/providers/android.svg"
+              alt="android tv"
+            />
+            <img
+              class="providers__image"
+              src="./img/providers/samsung.svg"
+              alt="samsung smart tv"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="faq content__faq">
+        <div class="container">
+          <div class="faq__content">
+            <h2 class="faq__title">Популярные вопросы</h2>
+            <div class="faq__main">
+              <div class="faq__list">
+                <div class="faq__item">
+                  <div class="faq__question">
+                    <h5 class="faq__question-title">
+                      Как подключить подписку OTTCLUB или продлить ее?
+                    </h5>
+                    <p class="faq__question-body">
+                      Какая необходима скорость соединения для стабильного
+                      просмотра каналов?
+                    </p>
+                  </div>
+                  <img src="./img/down.svg" alt="chevron icon" />
+                </div>
+                <div class="faq__item">
+                  <div class="faq__question">
+                    <h5 class="faq__question-title">
+                      Как смотреть одновременно на разных устройствах?
+                    </h5>
+                    <p class="faq__question-body">
+                      Какая необходима скорость соединения для стабильного
+                      просмотра каналов?
+                    </p>
+                  </div>
+                  <img src="./img/down.svg" alt="chevron icon" />
+                </div>
+                <div class="faq__item">
+                  <div class="faq__question">
+                    <h5 class="faq__question-title">
+                      Какая скорость соединения необходима для просмотра
+                      каналов?
+                    </h5>
+                    <p class="faq__question-body">
+                      Какая необходима скорость соединения для стабильного
+                      просмотра каналов?
+                    </p>
+                  </div>
+                  <img src="./img/down.svg" alt="chevron icon" />
+                </div>
+              </div>
+              <div class="faq__list">
+                <div class="faq__item">
+                  <div class="faq__question">
+                    <h5 class="faq__question-title">
+                      Как смотреть на телевизоре Samsung?
+                    </h5>
+                    <p class="faq__question-body">
+                      Какая необходима скорость соединения для стабильного
+                      просмотра каналов?
+                    </p>
+                  </div>
+                  <img src="./img/down.svg" alt="chevron icon" />
+                </div>
+                <div class="faq__item">
+                  <div class="faq__question">
+                    <h5 class="faq__question-title">
+                      Как посмотреть передачу, которая была в эфире ранее?
+                    </h5>
+                    <p class="faq__question-body">
+                      Какая необходима скорость соединения для стабильного
+                      просмотра каналов?
+                    </p>
+                  </div>
+                  <img src="./img/down.svg" alt="chevron icon" />
+                </div>
+                <div class="faq__item">
+                  <div class="faq__question">
+                    <h5 class="faq__question-title">
+                      Как работает бесплатный тестовый период?
+                    </h5>
+                    <p class="faq__question-body">
+                      Какая необходима скорость соединения для стабильного
+                      просмотра каналов?
+                    </p>
+                  </div>
+                  <img src="./img/down.svg" alt="chevron icon" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer content__footer">
+        <div class="container">
+          <div class="footer__main">
+            <div class="footer__info">
+              <div class="footer__about">
+                <a href="/" class="footer__link">О нас</a>
+                <a href="/" class="footer__link">Пользовательское соглашение</a>
+                <a href="/" class="footer__link">Политика конфиденциальности</a>
+                <a href="/" class="footer__link">ТВ-Каналам</a>
+              </div>
+              <div class="footer__how-to">
+                <a href="/" class="footer__link">Проверка скорости</a>
+                <a href="/" class="footer__link">Правила оформления подписки</a>
+              </div>
+            </div>
+            <div class="footer__help">
+              <div class="footer__contacts">
+                <h4 class="footer__help-title">Помощь</h4>
+                <a href="tel:+442045772169" class="footer__contact"
+                  >+442045772169 (Англия)</a
+                >
+                <a href="tel:+420255708953" class="footer__contact"
+                  >+420255708953 (Европа)</a
+                >
+                <a href="tel:+97233751723" class="footer__contact"
+                  >+97233751723 (Израиль)</a
+                >
+                <a href="mailto:support@ottclub.cc" class="footer__contact"
+                  >support@ottclub.cc</a
+                >
+              </div>
+              <div class="footer__support">
+                <p class="footer__support-title">Чат-поддержка</p>
+                <div class="footer__support-icons">
+                  <a href="/">
+                    <img src="./img/footer/whatsapp.svg" alt="whatsapp" />
+                  </a>
+                  <a href="/">
+                    <img src="./img/footer/tg.svg" alt="telegram" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__payment">
+            <img
+              src="./img/payment/visa.svg"
+              alt="visa"
+              class="footer__payment-image"
+            /><img
+              src="./img/payment/master-card.svg"
+              alt="master card"
+              class="footer__payment-image"
+            /><img
+              src="./img/payment/free-kassa.svg"
+              alt="free kassa"
+              class="footer__payment-image"
+            /><img
+              src="./img/payment/pay-sera.svg"
+              alt="paysera"
+              class="footer__payment-image"
+            /><img
+              src="./img/payment/sepa.svg"
+              alt=""
+              class="footer__payment-image"
+            />
+          </div>
+          <div class="footer__credits">
+            <p class="footer__credits-name">© 2021-2022 company name ltd</p>
+            <span class="footer__credits-point"></span>
+            <p class="footer__credits-company-number">Company number 1221514</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
