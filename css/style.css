@@ -195,6 +195,9 @@ button {
   height: 24px;
   width: 24px;
 }
+.header__socials-link:hover {
+  opacity: 0.8;
+}
 .header__auth {
   opacity: 0.8;
 }
@@ -207,10 +210,20 @@ button {
   display: none;
   font-weight: 600;
   margin-right: 32px;
+  padding: 12px 24px;
+  border-radius: 5px;
 }
 @media (min-width: 768px) {
   .header__sign-up {
     display: inline;
+  }
+  .header__sign-up:hover {
+    background-color: rgba(255, 255, 255, 0.062745098);
+  }
+}
+@media (min-width: 1440px) {
+  .header__sign-up {
+    padding: 16px 32px;
   }
 }
 .header__sign-in {
@@ -407,6 +420,9 @@ button {
   font-size: 15px;
   border-radius: 5px;
   background-color: var(--color-primary);
+}
+.hero__button:hover {
+  opacity: 0.8;
 }
 @media (min-width: 375px) {
   .hero__button {
@@ -1068,6 +1084,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s;
+}
+.channels__grid-item:hover {
+  transform: scale(1.1);
 }
 .channels__grid-item:nth-child(n+7) {
   display: none;
@@ -1199,6 +1219,12 @@ button {
 .faq__list {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .faq__list {
+    width: 50%;
+  }
 }
 .faq__item {
   display: flex;
@@ -1206,6 +1232,12 @@ button {
   position: relative;
   gap: 50px;
   margin-bottom: 44px;
+}
+.faq__item.open .faq__question-body {
+  display: block;
+}
+.faq__item.open .faq__chevron {
+  transform: rotate(180deg);
 }
 @media (min-width: 1440px) {
   .faq__item {
@@ -1258,6 +1290,7 @@ button {
   }
 }
 .faq__question-body {
+  display: none;
   font-size: 12px;
   opacity: 0.8;
 }
